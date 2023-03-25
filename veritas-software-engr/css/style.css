@@ -1,3 +1,8 @@
+/******** developer stylesheet******/
+.bg-deepgreen{
+    background-color: #2b6777 !important;
+}
+
 /********** Template CSS **********/
 :root {
     --primary: #4761FF;
@@ -93,7 +98,8 @@
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: var(--primary);
+    color: #2b6777;
+    font-weight: 700;
 }
 
 .navbar .dropdown-toggle::after {
@@ -159,8 +165,8 @@
     width: 3.5rem;
     height: 3.5rem;
     border-radius: 3.5rem;
-    background-color: var(--primary);
-    border: 15px solid var(--primary);
+    background-color: #2b6777;
+    border: 15px solid rgba(43, 103, 119, 0.767);
 }
 
 @media (max-width: 768px) {
@@ -219,7 +225,7 @@
     border: none;
     outline: none !important;
     padding: 18px 20px 20px 28px;
-    background: var(--primary);
+    background: #2b6777;
 }
 
 .btn-play:before {
@@ -232,7 +238,7 @@
     display: block;
     width: 90px;
     height: 90px;
-    background: var(--primary);
+    background: #2b6777;
     border-radius: 100%;
     animation: pulse-border 1500ms ease-out infinite;
 }
@@ -247,7 +253,7 @@
     display: block;
     width: 90px;
     height: 90px;
-    background: var(--primary);
+    background: #2b6777;
     border-radius: 100%;
     transition: all 200ms;
 }
